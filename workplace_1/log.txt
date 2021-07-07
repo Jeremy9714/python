@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "D:/Desktop/Scripts/Python/Day1.py", line 1297, in Chapter7_3
+    main()
+  File "D:/Desktop/Scripts/Python/Day1.py", line 1288, in main
+    firstMethod()
+  File "D:/Desktop/Scripts/Python/Day1.py", line 1290, in firstMethod
+    secondMethod()
+  File "D:/Desktop/Scripts/Python/Day1.py", line 1292, in secondMethod
+    thirdMethod()
+  File "D:/Desktop/Scripts/Python/Day1.py", line 1294, in thirdMethod
+    raise SelfException("自定义异常信息")
+SelfException: 自定义异常信息
+Traceback (most recent call last):
+  File "D:/Desktop/Scripts/Python/Day1.py", line 1297, in Chapter7_3
+    main()
+  File "D:/Desktop/Scripts/Python/Day1.py", line 1288, in main
+    firstMethod()
+  File "D:/Desktop/Scripts/Python/Day1.py", line 1290, in firstMethod
+    secondMethod()
+  File "D:/Desktop/Scripts/Python/Day1.py", line 1292, in secondMethod
+    thirdMethod()
+  File "D:/Desktop/Scripts/Python/Day1.py", line 1294, in thirdMethod
+    raise SelfException("自定义异常信息")
+SelfException: 自定义异常信息
